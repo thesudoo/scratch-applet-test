@@ -10,14 +10,12 @@
       (async function () {
         await cheerpjInit();
         cheerpjCreateDisplay(482, 387);
-        await cheerpjRunMain(
-          "ScratchApplet",
-          "/app/ScratchApplet.jar:/app/ScratchApplet.jar"
-        );
+        await cheerpjRunJar("/app/ScratchApplet.jar");
       })();
     </script>
   </body>
 </html>
+
 
 
 
