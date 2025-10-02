@@ -2,21 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>CheerpJ scratch test</title>
+    <title>CheerpJ applet test</title>
     <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
   </head>
   <body>
+    <applet
+      archive="ScratchApplet"
+      code="ProjectApplet"
+      height="900"
+      width="900"
+    ></applet>
     <script>
-      (async function () {
-        await cheerpjInit();
-        cheerpjCreateDisplay(482, 387);
-        await cheerpjRunJar("/app/ScratchApplet.jar");
-      })();
+      cheerpjInit();
     </script>
   </body>
 </html>
-
-
-
-
-
