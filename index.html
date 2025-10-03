@@ -1,26 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>scratch applet test</title>
-    <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
-  </head>
-  <body>
-    <applet
-      id="ProjectApplet"
-      style="display:block"
-      archive="ScratchApplet.jar"
-      code="ScratchApplet"
-      height="387"
-      width="482"
-    >
-    <param name="project value="/368470.sb">
-    </applet>
-    <script>
-      cheerpjInit();
-    </script>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <title>scratch applet test</title>
+        <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
+    </head>
+    <body>
+        <div id="projectload" style="display:block;" align="center">
+            <applet
+                id="ProjectApplet"
+                style="display:block"
+                archive="ScratchApplet.jar"
+                code="ScratchApplet"
+                height="387"
+                width="482"
+            >
+            <param name="project" value="368470.sb">
+            <param name="java_arguments" value="-Xmx128m">
+            </applet>
+        </div>
+        <script>
+            cheerpjInit();
+        </script>
+    </body>
 </html>
+
 
 
 
